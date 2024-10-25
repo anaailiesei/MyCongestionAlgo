@@ -1,0 +1,3 @@
+In this project, our team of four implemented the CUBIC congestion control algorithm, focusing on maximizing performance, enhancing fairness, and reducing packet latency. CUBIC, known for its efficiency in high-bandwidth and long-latency networks, was chosen to achieve a balance between throughput and network stability under varying congestion levels.
+
+The CUBIC algorithm was integrated within the HTsim simulator. Development took place in the cc.cpp file, utilizing the provided sender/receiver skeleton. Key functionalities were implemented and adapted in the CCSrc::processAck() and CCSrc::processNack() functions to align with CUBIC’s distinctive cubic window growth model, which dynamically adjusts based on the cubic function of time since the last congestion event.
